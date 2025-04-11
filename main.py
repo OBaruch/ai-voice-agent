@@ -10,7 +10,7 @@ async def twilio_voice(request: Request):
     response = """
     <Response>
         <Gather input="speech" action="/twilio-process" method="POST">
-            <Say voice="alice" language="es-MX">Hola, ¿en qué puedo ayudarte hoy?</Say>
+            <Say voice="alice" language="es-MX">Hola, ¿en qué puedo ayudarte hoy Fer del gym?</Say>
         </Gather>
         <Say voice="alice" language="es-MX">Lo siento, no escuché nada.</Say>
     </Response>
