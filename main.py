@@ -45,7 +45,7 @@ Siempre comienza la conversación con un saludo respetuoso: "Buenas tardes, Fer.
         }
     }
 
-    url = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
+    url = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
     hf_response = requests.post(url, headers=headers, json=payload)
 
     if hf_response.ok:
