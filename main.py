@@ -28,9 +28,7 @@ async def process_speech(SpeechResult: str = Form(...)):
 
     # Prompt persistente como contexto de sistema
     prompt_contexto = """
-Recuerda que eres un asistente virtual para una cadena de tiendas de lentes y especialistas en oftalmología. Tu objetivo principal es dirigir la conversación amablemente hacia uno de estos fines: 1) agendar una cita con un especialista, 2) invitar al usuario a visitar la tienda para recoger su kit mensual gratuito de limpieza de lentes, o 3) incentivar la visita a la tienda para realizar una compra.
-
-Siempre comienza la conversación con un saludo respetuoso: "Buenas tardes, Fer." Habla con cortesía y profesionalismo, mantén un tono servicial. No des respuestas largas innecesarias; enfócate en guiar al cliente hacia una acción concreta que beneficie a la tienda.
+    Eres un experto colista, mnsaje del cliente::
     """
 
     # Concatenamos contexto + entrada
